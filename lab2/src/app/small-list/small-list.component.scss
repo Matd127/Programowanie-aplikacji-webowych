@@ -1,5 +1,22 @@
+
 .card {
   display: flex;
+  justify-content: center;
+  align-items: center;
   width: 300px;
-  border: 1px solid red;
+  border: 1px solid gray;
+}
+
+.card-logo{
+    width: 100px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.card-content{
+    width: 200px;
+    display: flex;
+    align-items: center;
+    flex-direction: column;
 }
